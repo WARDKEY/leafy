@@ -27,6 +27,7 @@ public class PlantController {
         List<PlantDetailDto> plantDetailDtoList = plantService.getAllPlants();
         return new ResponseEntity<>(plantDetailDtoList, HttpStatus.OK);
     }
+    
 
     /**
      * 식물 ID로 조회

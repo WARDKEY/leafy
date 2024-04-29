@@ -18,6 +18,7 @@
   </div>
 </template>
 
+
 <script>
 import BasicPopup from "@/components/BasicPopup.vue";
 import NavBar from '@/components/NavBar.vue';
